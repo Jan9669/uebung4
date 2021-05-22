@@ -1,0 +1,13 @@
+#panorama {
+    width: 600px;
+    height: 400px;
+}
+
+body {
+    background-color: rgb(107, 0, 41);
+}
+
+p, h1, th, td {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
