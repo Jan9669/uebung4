@@ -1,13 +1,26 @@
-#panorama {
-    width: 600px;
-    height: 400px;
-}
-
-body {
-    background-color: rgb(107, 0, 41);
-}
-
-p, h1, th, td {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-}
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  body {
+    margin-bottom: 20px; /* Margin bottom by footer height */
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20px; /* Set the fixed height of the footer here */
+    line-height: 20px; /* Vertically center the text there */
+    background-color: #f5f5f5;
+  }
+  
+/*
+ontainer size
+  */
+  .container {
+    width: auto;
+    max-width: 90%;
+    padding: 0 ;
+  }
